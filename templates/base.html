@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title%} Main Page {%endblock%}</title>
+</head>
+<body>
+	<header>
+		<a href="{% url 'home' %}"> hOme</a> / <a href="{% url 'about' %}"> About </a>
+	</header>
+
+	{% block content %}
+
+	{% endblock %}
+
+
+</body>
+</html>
